@@ -1,5 +1,7 @@
 # Doctrine2 behavioral extensions
 
+# Doctrine2 行为扩展
+
 **Version 3.0.0**
 
 [![Build Status](https://secure.travis-ci.org/Atlantic18/DoctrineExtensions.png?branch=master)](http://travis-ci.org/Atlantic18/DoctrineExtensions)
@@ -10,6 +12,11 @@
 Extensions **2.4.x** are compatible with ORM and doctrine common library versions from **2.2.x** to **2.5.x**
 
 Since the author has stopped working with PHP, looking for maintainers to ensure stability of doctrine extensions.
+
+**注意：**扩展 **3.0.x**兼容自**2.5.x**的**ORM**和doctrine一般库并需要**PHP 5.4**或更高版本。
+扩展**2.4.x**兼容从版本**2.2.x**到**2.5.x**的ORM和doctrine一般库。
+
+因为作者已经停止PHP的工作了，现寻找维护者来保证doctrine扩展的稳定性。
 
 ### Latest updates
 
@@ -33,7 +40,7 @@ used behaviors which can be easily attached to your event system of Doctrine2 an
 records being flushed in the behavioral way. List of extensions:
 
 - [**Tree**](/doc/tree.md) - this extension automates the tree handling process and adds some tree specific functions on repository.
-(**closure**, **nestedset** or **materialized path**)
+  (**closure**, **nestedset** or **materialized path**)
 - [**Translatable**](/doc/translatable.md) - gives you a very handy solution for translating records into different languages. Easy to setup, easier to use.
 - [**Sluggable**](/doc/sluggable.md) - urlizes your specified fields into single unique slug
 - [**Timestampable**](/doc/timestampable.md) - updates date fields on create, update and even property change.
